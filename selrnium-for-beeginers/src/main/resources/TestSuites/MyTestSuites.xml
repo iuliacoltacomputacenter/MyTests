@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MyTestSuites" verbose="1">
+
+	<test name="EntryAdd Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.MyTest">
+				<methods>
+					
+				  <!-- <include name = "entryAdd"></include> -->
+					<!-- <include name = "multipleWindows"></include> -->
+					 <include name = "keyPress"> </include>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
